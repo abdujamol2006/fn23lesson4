@@ -64,19 +64,24 @@ ul {
 a {
   text-decoration: none;
 }
-.black {
-  background-color: black;
-}
+
 .errorpage {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+}
+.num {
+  color: aqua;
+
+  -webkit-box-shadow: inset 0px 0px 0em 0px var(--glow-color),
+    0px 0px 0em 0px var(--glow-color);
+  -moz-box-shadow: inset 0px 0px 0em 0px var(--glow-color),
+    0px 0px 0em 0px var(--glow-color);
+  box-shadow: inset 0px 0px 0em 0px var(--glow-color),
+    0px 0px 0em 0px var(--glow-color);
+  animation: border-flicker 3s linear infinite;
+  margin-top: 150px;
 }
 .errorpage-text {
-  margin-top: 300px;
-  font-size: 60px;
-  font-weight: bold;
   color: aqua;
   -webkit-box-shadow: inset 0px 0px 0em 0px var(--glow-color),
     0px 0px 0em 0px var(--glow-color);
@@ -84,10 +89,10 @@ a {
     0px 0px 0em 0px var(--glow-color);
   box-shadow: inset 0px 0px 0em 0px var(--glow-color),
     0px 0px 0em 0px var(--glow-color);
-  animation: border-flicker 1s linear infinite;
+  animation: border-flicker 4s linear infinite;
 }
 .errbtn {
-  margin-bottom: 217px;
+  margin-bottom: 241px;
 }
 .logo {
   border: none;
@@ -100,7 +105,7 @@ a {
     0px 0px 0em 0px var(--glow-color);
   box-shadow: inset 0px 0px 0em 0px var(--glow-color),
     0px 0px 0em 0px var(--glow-color);
-  animation: border-flicker 2s linear infinite;
+  animation: border-flicker 3s linear infinite;
 }
 .pages {
   font-size: 20px;
