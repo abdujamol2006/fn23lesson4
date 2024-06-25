@@ -11,7 +11,7 @@ function Navbar() {
       <div className="navbar site-container">
         <div className="navbar-start">
           <Link to="/" className="logo flex items-center gap-1">
-            <div className="glowing-btn  " />
+            <div className="glowing-btn text-5xl  " />
             My Articles
           </Link>
         </div>

@@ -1,7 +1,7 @@
 import React from "react";
 
 function Articles() {
-  return <div></div>;
+  return <div className="site-container"></div>;
 }
 
 export default Articles;
