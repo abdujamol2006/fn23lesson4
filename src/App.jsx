@@ -8,6 +8,8 @@ import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import Articles from "./pages/Articles";
 import ErrorPage from "./pages/ErrorPage";
+import ArticlesLayout from "./layout/ArticlesLayout";
+import ArticleContent from "./pages/ArticleContent";
 
 function App() {
   const routes = createBrowserRouter([
@@ -18,7 +20,14 @@ function App() {
       children: [
         { index: true, element: <Home /> },
         { path: "/about", element: <About /> },
-        { path: "/articles", element: <Articles /> },
+        {
+          path: "/articles",
+          element: <ArticlesLayout />,
+          children: [
+            { index: true, element: <Articles /> },
+            { path: ":articlecontent", element: <ArticleContent /> },
+          ],
+        },
         { path: "/contact", element: <Contact /> },
       ],
     },

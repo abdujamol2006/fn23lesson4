@@ -69,6 +69,12 @@ a {
   display: flex;
   flex-direction: column;
 }
+.about-text {
+  color: aqua;
+}
+.docs {
+  color: rgb(78, 146, 146);
+}
 .num {
   color: aqua;
 
@@ -98,7 +104,7 @@ a {
   border: none;
   font-size: 20px;
   font-weight: bold;
-  color: hsl(186 100% 69%);
+  color: aqua;
   -webkit-box-shadow: inset 0px 0px 0em 0px var(--glow-color),
     0px 0px 0em 0px var(--glow-color);
   -moz-box-shadow: inset 0px 0px 0em 0px var(--glow-color),

@@ -4,7 +4,7 @@ function Contact() {
   return (
     <div className="site-container ">
       <h1 className="about-text text-5xl font-bold">Contact</h1>
-      <p className="text-2xl">
+      <p className="docs  text-2xl">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
         illo quo dolorum quas soluta aperiam voluptate? Rem incidunt quas
         voluptate quidem dolor fugiat. Id, aut laudantium non, illo soluta
