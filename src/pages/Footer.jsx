@@ -4,11 +4,11 @@ function Footer() {
   return (
     <div className="bg-base-200 ">
       <div className="site-container">
-        <footer className=" footer-bg  footer footer-center  p-10">
+        <footer className=" footer-bg  footer footer-center  p-5">
           <aside>
             <svg
-              width="50"
-              height="50"
+              width="30"
+              height="30"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
               fillRule="evenodd"
