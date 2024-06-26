@@ -1,6 +1,3 @@
-import { useState } from "react";
-
-import Title from "./Title";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import MainLayout from "./layout/MainLayout";
 import About from "./pages/About";
@@ -25,7 +22,7 @@ function App() {
           element: <ArticlesLayout />,
           children: [
             { index: true, element: <Articles /> },
-            { path: ":articlecontent", element: <ArticleContent /> },
+            { path: ":id", element: <ArticleContent /> },
           ],
         },
         { path: "/contact", element: <Contact /> },
@@ -37,3 +34,5 @@ function App() {
 }
 
 export default App;
+
+/*,*/

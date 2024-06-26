@@ -320,3 +320,33 @@ a {
   color: #fff;
   border-color: aqua;
 }
+.glowing-card {
+  position: relative;
+  color: var(--glow-color);
+  cursor: pointer;
+  padding: 0.3em 0.3em;
+  border: 0.1em solid var(--glow-color);
+  border-radius: 0.45em;
+  background: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+
+  -webkit-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
+    0px 0px 0.5em 0px var(--glow-color);
+  -moz-box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
+    0px 0px 0.5em 0px var(--glow-color);
+  box-shadow: inset 0px 0px 0.5em 0px var(--glow-color),
+    0px 0px 0.5em 0px var(--glow-color);
+  animation: border-flicker 5s linear infinite;
+}
+.author {
+  color: rgb(142, 172, 176);
+}
+.description {
+  color: rgb(142, 172, 176);
+}
+.footer-bg {
+  color: aqua;
+}

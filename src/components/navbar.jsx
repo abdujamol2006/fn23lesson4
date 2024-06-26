@@ -1,9 +1,6 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
-import { LuSunMedium } from "react-icons/lu";
-import { LuMoon } from "react-icons/lu";
 import NavLinks from "./navlinks";
-import { IoLogoMedium } from "react-icons/io5";
 
 function Navbar() {
   return (
