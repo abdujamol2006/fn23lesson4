@@ -7,7 +7,9 @@ function Articles() {
     data: articles,
     error,
     isPending,
-  } = useFetch("http://localhost:3000/articles");
+  } = useFetch(
+    "https://online-json-server-api.up.railway.app/project/667a2cc81d2cd3eb114415d3/articles"
+  );
   return (
     <div className="flex site-container justify-between mt-10">
       {error && (
@@ -21,7 +23,7 @@ function Articles() {
         </div>
       )}
       {articles &&
-        articles.map((article) => {
+        articles.data.map((article) => {
           return (
             <div
               key={article.id}
