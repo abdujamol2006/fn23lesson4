@@ -23,7 +23,7 @@ function Articles() {
         </div>
       )}
       {articles &&
-        articles.data.map((article) => {
+        articles.map((article) => {
           return (
             <div
               key={article.id}
